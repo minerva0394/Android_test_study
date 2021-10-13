@@ -30,7 +30,7 @@
         app:layout_constraintRight_toRightOf="@+id/hym"
         />
 
-    """
+    """ 各种layout控件说明
 
     layout_constraintTop_toTopOf       // 将所需视图的顶部与另一个视图的顶部对齐。
 
