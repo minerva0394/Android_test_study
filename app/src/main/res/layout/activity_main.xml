@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/hym"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello you motherfucker!"
+        android:textSize="50dp"
+        android:textColor="#850000"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What's up bitch"
+        android:textSize="50dp"
+        android:textColor="#004085"
+        android:textStyle="italic"
+        app:layout_constraintTop_toBottomOf="@+id/hym"
+        app:layout_constraintRight_toRightOf="@+id/hym"
+        />
+
+    """
+
+    layout_constraintTop_toTopOf       // 将所需视图的顶部与另一个视图的顶部对齐。
+
+    layout_constraintTop_toBottomOf    // 将所需视图的顶部与另一个视图的底部对齐。
+
+    layout_constraintBottom_toTopOf    // 将所需视图的底部与另一个视图的顶部对齐。
+
+    layout_constraintBottom_toBottomOf // 将所需视图的底部与另一个视图的底部对齐。
+
+    layout_constraintLeft_toLeftOf     // 将所需视图的左边与另一个视图的左边对齐。
+
+    layout_constraintLeft_toRightOf    // 将所需视图的左边与另一个视图的右边对齐。
+
+    layout_constraintRight_toLeftOf    // 将所需视图的右边与另一个视图的左边对齐。
+
+    layout_constraintRight_toRightOf   // 将所需视图的右边与另一个视图的右边对齐。
+
+    """
+
+</androidx.constraintlayout.widget.ConstraintLayout>
