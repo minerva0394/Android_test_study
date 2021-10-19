@@ -20,7 +20,8 @@
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
         android:background="#ffffff"
-        android:hint=" QQ号码/手机/邮箱" />
+        android:hint=" QQ号码/手机/邮箱"
+        android:textSize="15dp"/>
 
     <EditText
         android:id="@+id/password"
@@ -30,8 +31,8 @@
         android:layout_marginTop="3px"
         android:width="5px"
         android:background="#ffffff"
-        android:hint=" 请输入您的密码" />
-
+        android:hint=" 请输入您的密码"
+        android:textSize="15dp"/>
 
     <Button
         android:id="@+id/Btn1"
@@ -41,8 +42,7 @@
         android:layout_margin="10dp"
         android:background="@drawable/setbar_bg"
         android:text="登录"
-
-        />
+        android:textSize="25dp"/>
 
     <Button
         android:id="@+id/Btn2"
@@ -51,23 +51,24 @@
         android:layout_gravity="center"
         android:background="@drawable/setbar_bg2"
         android:onClick="btnClick"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
         android:text="一键登录" />
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:orientation="horizontal">
+        android:layout_marginTop="25dp">
 
-        <!--todo 改为绝对定位  -->
+        <!--todo 能否改为绝对定位  -->
 
         <TextView
             android:id="@+id/text1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10px"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="47dp"
             android:layout_weight="1"
-            android:paddingLeft="43dp"
             android:text="忘了密码?"
             android:textColor="#3068BC" />
 
@@ -75,12 +76,12 @@
             android:id="@+id/text2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="47dp"
             android:layout_weight="1"
-            android:paddingLeft="165dp"
             android:text="注册新账号"
             android:textColor="#3068BC" />
-
-    </LinearLayout>
+    </RelativeLayout>
 
 
 </LinearLayout>
