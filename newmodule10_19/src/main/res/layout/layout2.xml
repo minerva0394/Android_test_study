@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/qq" />
+
+    <EditText
+        android:id="@+id/account"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+        android:hint=" QQ号码/手机/邮箱" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3px"
+        android:width="5px"
+        android:background="#ffffff"
+        android:hint=" 请输入您的密码" />
+
+
+    <Button
+        android:id="@+id/Btn1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/setbar_bg"
+        android:text="登录"
+
+        />
+
+    <Button
+        android:id="@+id/Btn2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/setbar_bg2"
+        android:onClick="btnClick"
+        android:text="一键登录" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <!--todo 改为绝对定位  -->
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_weight="1"
+            android:paddingLeft="43dp"
+            android:text="忘了密码?"
+            android:textColor="#3068BC" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="165dp"
+            android:text="注册新账号"
+            android:textColor="#3068BC" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

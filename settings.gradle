@@ -9,3 +9,4 @@ dependencyResolutionManagement {
 rootProject.name = "TEST"
 include ':app'
 include ':demomodule2'
+include ':newmodule10_19'
