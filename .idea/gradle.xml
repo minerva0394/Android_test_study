@@ -10,9 +10,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/10_26_alertdialog" />
+            <option value="$PROJECT_DIR$/10_26_layout_RadioGroup" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/demomodule2" />
-            <option value="$PROJECT_DIR$/layout_10_26_RadioGroup" />
             <option value="$PROJECT_DIR$/newmodule10_19" />
           </set>
         </option>
