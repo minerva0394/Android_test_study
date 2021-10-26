@@ -10,3 +10,4 @@ rootProject.name = "TEST"
 include ':app'
 include ':demomodule2'
 include ':newmodule10_19'
+include ':layout_10_26_RadioGroup'
